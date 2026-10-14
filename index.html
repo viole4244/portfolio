@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aditya Narayan Panda — Backend Engineer</title>
+  <meta name="description" content="Aditya Narayan Panda — backend engineer building payment-terminal platforms in Go, with distributed event-driven systems on MQTT, RabbitMQ and Kafka.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='8' fill='%23b7372a'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23f3ead8' font-family='serif'%3E匠%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Yuji+Syuku&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="washi" aria-hidden="true"></div>
+  <div class="petals" aria-hidden="true"></div>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav">
+    <a href="#top" class="nav__brand" aria-label="Home">
+      <span class="seal seal--sm">匠</span>
+      <span class="nav__name">A. N. Panda</span>
+    </a>
+    <nav class="nav__links" id="nav-links">
+      <a href="#path">Path</a>
+      <a href="#journey">Journey</a>
+      <a href="#works">Works</a>
+      <a href="#craft">Craft</a>
+      <a href="#honours">Honours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle night mode" title="昼 / 夜">
+        <span class="theme-icon theme-icon--day">昼</span>
+        <span class="theme-icon theme-icon--night">夜</span>
+      </button>
+      <button class="icon-btn nav__menu" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero__vertical" aria-hidden="true">アディティヤ・パンダ</div>
+
+      <div class="hero__text">
+        <p class="eyebrow">Backend Engineer · Bhubaneswar</p>
+        <h1 class="hero__title">
+          Aditya<br>Narayan <span class="accent">Panda</span>
+        </h1>
+        <p class="hero__lede">
+          I build the quiet machinery behind payments: Go services, terminal
+          management systems, and event-driven pipelines that keep thousands of
+          soundbox terminals talking to the banks behind them.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#works">View my works</a>
+          <a class="btn btn--ghost" href="#contact">Send a letter</a>
+        </div>
+      </div>
+
+      <figure class="hero__art" aria-hidden="true">
+        <svg viewBox="0 0 600 460" class="landscape">
+          <circle class="sun" cx="410" cy="150" r="92"/>
+          <path class="mtn mtn--far" d="M0 330 L70 280 L130 300 L210 240 L270 290 L330 260 L420 300 L500 250 L600 300 V460 H0Z"/>
+          <path class="mtn mtn--fuji" d="M120 460 L282 196 Q300 172 318 196 L480 460Z"/>
+          <path class="snow" d="M254 242 L282 196 Q300 172 318 196 L346 242 L332 232 L318 250 L304 230 L292 250 L280 232 L268 248Z"/>
+          <path class="mtn mtn--near" d="M0 390 L60 360 L140 380 L190 350 L260 400 L600 370 V460 H0Z"/>
+          <rect class="mist" x="40" y="300" width="230" height="10" rx="5"/>
+          <rect class="mist" x="350" y="325" width="200" height="8" rx="4"/>
+          <rect class="mist" x="150" y="345" width="160" height="7" rx="3.5"/>
+          <!-- torii -->
+          <g class="torii" transform="translate(70 352)">
+            <path d="M-6 0 Q30 -8 66 0 L64 6 Q30 -1 -4 6Z"/>
+            <rect x="2" y="10" width="56" height="4"/>
+            <rect x="9" y="4" width="5" height="44"/>
+            <rect x="46" y="4" width="5" height="44"/>
+          </g>
+          <!-- birds -->
+          <path class="bird" d="M180 120 q8 -7 16 0 q8 -7 16 0"/>
+          <path class="bird" d="M220 95 q6 -5 12 0 q6 -5 12 0"/>
+        </svg>
+        <span class="seal seal--hero">技<br>匠</span>
+      </figure>
+    </section>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- ===== 一 About ===== -->
+    <section class="section" id="path">
+      <header class="section__head reveal">
+        <span class="section__kanji">道</span>
+        <div>
+          <p class="section__num">一 · Michi</p>
+          <h2>The Path</h2>
+        </div>
+      </header>
+
+      <div class="about reveal">
+        <div class="enso-wrap" aria-hidden="true">
+          <svg viewBox="0 0 200 200" class="enso">
+            <path d="M100 22 C 150 20, 180 60, 178 102 C 176 148, 140 180, 98 178 C 54 176, 22 142, 24 98 C 26 62, 50 34, 84 26"/>
+          </svg>
+          <span class="enso__kanji">道</span>
+        </div>
+        <div class="about__text">
+          <p>
+            I studied Civil Engineering at <strong>NIT Rourkela</strong> with a minor in
+            Computer Science, and somewhere between soil mechanics and competitive
+            programming I found my way to backend systems.
+          </p>
+          <p>
+            Today I'm a <strong>Software Development Engineer at iServeU</strong>, where I'm a
+            core backend developer on the Soundbox Platform. I design Terminal Management
+            Systems in <strong>Go</strong>, wire up event-driven communication over
+            <strong>MQTT, RabbitMQ and Kafka</strong>, and ship production integrations for
+            banks such as BOB, PNB, IDBI, Canara Bank and Bank of Maharashtra.
+          </p>
+          <p>
+            I care about systems that are dull in the best way: predictable, observable,
+            and still standing at 3 a.m.
+          </p>
+          <dl class="facts">
+            <div><dt>Based in</dt><dd>Cuttack, Odisha</dd></div>
+            <div><dt>Focus</dt><dd>Go · Distributed systems</dd></div>
+            <div><dt>Education</dt><dd>B.Tech, NIT Rourkela · 7.94</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 二 Experience ===== -->
+    <section class="section" id="journey">
+      <header class="section__head reveal">
+        <span class="section__kanji">旅</span>
+        <div>
+          <p class="section__num">二 · Tabi</p>
+          <h2>The Journey</h2>
+        </div>
+      </header>
+
+      <ol class="scroll">
+        <li class="scroll__item reveal">
+          <span class="lantern" aria-hidden="true"></span>
+          <div class="scroll__meta">
+            <span class="scroll__date">Jul 2025 — Present</span>
+            <span class="scroll__place">Bhubaneswar</span>
+          </div>
+          <h3>Software Development Engineer I <span class="at">· iServeU Technology</span></h3>
+          <ul>
+            <li>Core backend developer on the <strong>Soundbox Platform</strong>, designing and maintaining Terminal Management System (TMS) applications in Go for large-scale payment-terminal fleets.</li>
+            <li>Built end-to-end services for device registration, inventory, terminal provisioning, device status, language updates and merchant onboarding.</li>
+            <li>Designed and built an end-to-end <strong>Merchant Discount Rate (MDR) calculation service</strong> for Bank of Maharashtra, automating transaction-fee computation and settlement workflows.</li>
+            <li>Implemented distributed event-driven communication over <strong>MQTT, RabbitMQ and Apache Kafka</strong> for partners including BOB, PNB, IDBI, Canara Bank, JK Bank, KGB, CBOI, Slice and Olanzo.</li>
+          </ul>
+        </li>
+        <li class="scroll__item reveal">
+          <span class="lantern" aria-hidden="true"></span>
+          <div class="scroll__meta">
+            <span class="scroll__date">Jan 2025 — Jul 2025</span>
+            <span class="scroll__place">Bhubaneswar</span>
+          </div>
+          <h3>Software Engineer Intern <span class="at">· iServeU Technology</span></h3>
+          <ul>
+            <li>Worked with the <strong>SRE team</strong> monitoring production cloud services for high availability.</li>
+            <li>Managed deployments with Docker, Kubernetes (GKE) and CI/CD pipelines, verifying service health and production rollouts.</li>
+            <li>Troubleshot deployment failures, runtime issues and outages with Google Cloud Logs Explorer.</li>
+            <li>Built internal Python automation portals for Soundbox transaction reporting, pulling and exporting data from <strong>BigQuery</strong>.</li>
+          </ul>
+        </li>
+        <li class="scroll__item reveal">
+          <span class="lantern" aria-hidden="true"></span>
+          <div class="scroll__meta">
+            <span class="scroll__date">Dec 2021 — Jun 2025</span>
+            <span class="scroll__place">Rourkela</span>
+          </div>
+          <h3>B.Tech, Civil Engineering <span class="at">· NIT Rourkela</span></h3>
+          <ul>
+            <li>Minor in Computer Science · CGPA 7.94</li>
+          </ul>
+        </li>
+        <li class="scroll__item reveal">
+          <span class="lantern" aria-hidden="true"></span>
+          <div class="scroll__meta">
+            <span class="scroll__date">2019 — 2021</span>
+            <span class="scroll__place">Bhadrak</span>
+          </div>
+          <h3>AISSCE (10+2) <span class="at">· S.B.D International School</span></h3>
+          <ul>
+            <li>Scored 98.2%</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== 三 Projects ===== -->
+    <section class="section" id="works">
+      <header class="section__head reveal">
+        <span class="section__kanji">作</span>
+        <div>
+          <p class="section__num">三 · Saku</p>
+          <h2>Works</h2>
+        </div>
+      </header>
+      <p class="section__intro reveal">Each work hangs here like an <em>ema</em>, a wooden plaque left at the shrine. More will be added.</p>
+      <div class="works" id="works-grid"></div>
+    </section>
+
+    <!-- ===== 四 Skills ===== -->
+    <section class="section" id="craft">
+      <header class="section__head reveal">
+        <span class="section__kanji">技</span>
+        <div>
+          <p class="section__num">四 · Waza</p>
+          <h2>The Craft</h2>
+        </div>
+      </header>
+
+      <div class="craft">
+        <div class="craft__group reveal">
+          <h3><span class="craft__kanji">言</span>Languages</h3>
+          <ul class="tags"><li>Go</li><li>Python</li><li>C++</li><li>SQL</li></ul>
+        </div>
+        <div class="craft__group reveal">
+          <h3><span class="craft__kanji">築</span>Backend &amp; Frameworks</h3>
+          <ul class="tags"><li>gRPC</li><li>FastAPI</li><li>Flask</li><li>REST APIs</li><li>WebSockets</li><li>WebRTC</li></ul>
+        </div>
+        <div class="craft__group reveal">
+          <h3><span class="craft__kanji">蔵</span>Databases</h3>
+          <ul class="tags"><li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li><li>Cassandra</li><li>Redis</li><li>CockroachDB</li></ul>
+        </div>
+        <div class="craft__group reveal">
+          <h3><span class="craft__kanji">雲</span>Cloud &amp; DevOps</h3>
+          <ul class="tags"><li>GCP</li><li>GKE</li><li>BigQuery</li><li>Logs Explorer</li><li>Docker</li><li>Kubernetes</li><li>CI/CD</li></ul>
+        </div>
+        <div class="craft__group reveal">
+          <h3><span class="craft__kanji">信</span>Messaging &amp; Tools</h3>
+          <ul class="tags"><li>MQTT</li><li>RabbitMQ</li><li>Apache Kafka</li><li>Git</li><li>GitHub</li><li>Linux</li><li>Postman</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 五 Achievements ===== -->
+    <section class="section" id="honours">
+      <header class="section__head reveal">
+        <span class="section__kanji">誉</span>
+        <div>
+          <p class="section__num">五 · Homare</p>
+          <h2>Honours</h2>
+        </div>
+      </header>
+
+      <div class="honours">
+        <article class="honour reveal">
+          <p class="honour__site">CodeChef</p>
+          <p class="honour__big">#40</p>
+          <p class="honour__desc">Global rank in Starters 97 (Div 3)</p>
+          <p class="honour__sub">Peak rating 1675 · 3★</p>
+        </article>
+        <article class="honour reveal">
+          <p class="honour__site">Codeforces</p>
+          <p class="honour__big">1257</p>
+          <p class="honour__desc">Peak rating · Pupil</p>
+          <p class="honour__sub">Global rank 3329 in Edu Round 151</p>
+        </article>
+        <article class="honour reveal">
+          <p class="honour__site">LeetCode</p>
+          <p class="honour__big">200+</p>
+          <p class="honour__desc">Algorithmic problems solved</p>
+          <p class="honour__sub">Contest rating 1553</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== 六 Contact ===== -->
+    <section class="section" id="contact">
+      <header class="section__head reveal">
+        <span class="section__kanji">縁</span>
+        <div>
+          <p class="section__num">六 · En</p>
+          <h2>A Letter</h2>
+        </div>
+      </header>
+
+      <div class="letter reveal">
+        <p class="letter__text">
+          Whether it's a role, a project, or a question about payment systems, my door is open.
+          Write to me and I'll reply.
+        </p>
+        <a class="letter__mail" href="mailto:adityapanda443@gmail.com">adityapanda443@gmail.com</a>
+        <ul class="socials" id="socials"></ul>
+        <span class="seal seal--letter">印</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="seigaiha" aria-hidden="true"></div>
+    <p>© <span id="year"></span> Aditya Narayan Panda · Built with ink and patience</p>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
